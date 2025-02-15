@@ -91,9 +91,7 @@ Abra uma janela do Prompt de Comando e subescreva uma mensagem:
       - TOPICO 1: field1=xxx , substituindo xxx pelo valor do seu tópico 1
       - TOPICO 2: field2=xxx , substituindo xxx pelo valor do seu tópico 2
 
-  ```bash
-    mosquitto_pub -h ENDERECO -p PORTA -t "TOPICO" -i "ID" -u USUARIO -P "SENHA" -t "TOPICO" -m "MENSAGEM"
-  ```
+
 
 Por exemplo:
 
